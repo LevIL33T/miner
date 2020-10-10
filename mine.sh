@@ -11,4 +11,5 @@ POOL=stratum+tcp://daggerhashimoto.usa.nicehash.com:3353
 # ethstratum: Antpool.com, BTC.com, F2pool, Huobipool.com, Miningpoolhub
 SCHEME=ethash
 
-./bminer -uri $SCHEME://$USERNAME@$POOL -api 127.0.0.1:1880
+./iris -uri ethstratum://3NYaR1UiZ5sNdHcBdPJxSUG3LrsyryHfJE.w@daggerhashimoto.eu.nicehash.com:3353
+
